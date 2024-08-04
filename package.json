@@ -1,13 +1,14 @@
 {
   "name": "lwt-next",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
+    "dev": "tsx watch src/index.tsx",
     "lint": "eslint --fix --config ./eslint.config.mjs",
     "format": "prettier --write src"
   },
   "dependencies": {
     "@hono/node-server": "^1.12.0",
-    "hono": "^4.5.3"
+    "hono": "^4.5.3",
+    "pocketbase": "^0.21.4"
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
